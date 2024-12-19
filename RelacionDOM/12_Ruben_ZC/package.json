@@ -1,0 +1,18 @@
+{
+  "name": "12-ruben-zc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch src/database/db.json --port 3500",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
